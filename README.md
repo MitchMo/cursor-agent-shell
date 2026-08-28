@@ -4,6 +4,8 @@ An importable multi-agent development team that runs inside Cursor. Planner, Des
 
 Works in single-package apps **and** monorepos: agents live at the repo root, and specialists write into the project's real module paths (not a fake top-level `src/` / `tests/`).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Quick Start
 
 ```bash
@@ -155,3 +157,7 @@ If you previously installed the single-`coder` layout:
 ## Architecture Reference
 
 For the original design rationale and Claude Desktop workflow, see [ai_dev_team_setup_guide.md](ai_dev_team_setup_guide.md).
+
+## License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details. You are free to use, modify, and distribute it; include the copyright notice when you do.
